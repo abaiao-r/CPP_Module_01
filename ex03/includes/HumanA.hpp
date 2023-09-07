@@ -1,26 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   newZombie.cpp                                      :+:      :+:    :+:   */
+/*   HumanA.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abaiao-r <abaiao-r@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/06 21:34:22 by abaiao-r          #+#    #+#             */
-/*   Updated: 2023/09/07 14:40:49 by abaiao-r         ###   ########.fr       */
+/*   Created: 2023/09/07 17:42:25 by abaiao-r          #+#    #+#             */
+/*   Updated: 2023/09/07 19:02:44 by abaiao-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/Zombie.hpp"
+#ifndef HUMANA_HPP
+# define HUMANA_HPP
 
-/* newZombie:
- * Creates a new Zombie object and returns it.
- * The Zombie object is created on the heap because it is
- * a pointer.
- */
-Zombie* newZombie(std::string name)
+#include "Weapon.hpp"
+
+class HumanA
 {
-    Zombie* newZombie;
-    
-    newZombie = new Zombie(name);
-    return (newZombie);
-}
+    private:
+        std::string name;
+        Weapon &weapon;
+
+    public:
+        // Constructor
+        HumanA(std::string name, Weapon &weapon);
+        // Destructor
+        ~HumanA(void);
+
+        // Methods
+        void attack(void);
+};
+
+#endif

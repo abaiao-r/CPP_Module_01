@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: abaiao-r <abaiao-r@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/09/06 21:03:02 by abaiao-r          #+#    #+#              #
-#    Updated: 2023/09/07 14:22:16 by abaiao-r         ###   ########.fr        #
+#    Created: 2023/09/07 19:12:23 by abaiao-r          #+#    #+#              #
+#    Updated: 2023/09/07 20:10:34 by abaiao-r         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,16 +21,12 @@ OBJDIR = objs
 # Source Files
 
 SRCS = 	$(SRCDIR)/main.cpp \
-		$(SRCDIR)/Zombie.cpp \
-		$(SRCDIR)/newZombie.cpp \
-		$(SRCDIR)/randomChump.cpp
 
 
 OBJS = 	$(SRCS:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
 
-
 # Targets
-NAME = BraiiiiiiinnnzzzZ
+NAME = Sed_is_for_losers
 
 all: 	$(NAME)
 

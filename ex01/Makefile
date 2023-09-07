@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: abaiao-r <abaiao-r@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/09/06 21:03:02 by abaiao-r          #+#    #+#              #
-#    Updated: 2023/09/07 14:22:16 by abaiao-r         ###   ########.fr        #
+#    Created: 2023/09/07 14:19:55 by abaiao-r          #+#    #+#              #
+#    Updated: 2023/09/07 14:25:02 by abaiao-r         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,15 +22,13 @@ OBJDIR = objs
 
 SRCS = 	$(SRCDIR)/main.cpp \
 		$(SRCDIR)/Zombie.cpp \
-		$(SRCDIR)/newZombie.cpp \
-		$(SRCDIR)/randomChump.cpp
-
+		$(SRCDIR)/zombieHorde.cpp
 
 OBJS = 	$(SRCS:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
 
 
 # Targets
-NAME = BraiiiiiiinnnzzzZ
+NAME = Moar_brainz!
 
 all: 	$(NAME)
 
