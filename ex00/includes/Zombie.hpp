@@ -6,7 +6,7 @@
 /*   By: abaiao-r <abaiao-r@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 21:06:32 by abaiao-r          #+#    #+#             */
-/*   Updated: 2023/09/07 15:12:49 by abaiao-r         ###   ########.fr       */
+/*   Updated: 2023/09/08 21:40:36 by abaiao-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 /* colours */
 # define RESET		"\033[0m"
 # define RED		"\033[31m"
-# define GREEN		"\033[32m
+# define GREEN		"\033[32m"
 
 class Zombie
 {
