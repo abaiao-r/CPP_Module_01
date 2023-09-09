@@ -42,7 +42,6 @@ Throughout this project, you'll engage with and master several pivotal concepts,
 
 The practical exercises and hands-on coding challenges in this project will equip you with the skills and knowledge necessary to excel in C++ programming. This foundation will serve as a springboard for your continued learning and development in this powerful language.
 
-
 ## Exercise 00: BraiiiiiiinnnzzzZ
 
 #### Introduction:
